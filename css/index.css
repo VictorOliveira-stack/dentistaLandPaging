@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    
+}
+header{
+    
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 600; 
+        font-size: 50px; 
+        color: #4C4C9B; 
+        text-transform: uppercase; 
+        letter-spacing: 2px; 
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 0px; 
+        margin-bottom: 0.1em; 
+        background-image: linear-gradient( to bottom, rgb(212, 252, 249), rgb(215, 252, 249), rgb(212, 252, 249) );
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.596);
+        
+}
+/*@media (min-width: 1441px) and (max-width: 1920px){
+    header{
+        font-size: 80px;
+    }
+}*/
+
+.section1{
+    display: flex;
+    word-wrap: break-word;
+    height: 90vh;
+    padding-top: 2em;
+    gap: 10%;
+    padding-left: 2rem;
+    background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(129, 223, 230));
+    
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .section1{
+        flex-direction: column;
+        height: 190vh;
+        gap: 18em;
+    }
+}
+@media (min-width: 505px) and (max-width: 768px){
+    .section1{
+      height: 100vh;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .section1{
+        height: 100vh;
+      }
+}
+@media (min-width: 1441px) and (max-width: 1920px){
+    .section1{
+        height: 50vh;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .section1{
+        height: 45vh;
+        
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 2650px){
+    #divsection1{
+        padding-left: 10%;
+    }
+}
+
+#divtexto1{
+    width: 14rem;
+    height: 10rem;
+    font-size: 18pt;
+    font-weight: 400;
+    /*color: #065E8B;*/
+    color: #0979b1;
+    margin-left: 20%;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #divtexto1{
+        font-size: 20px;
+        margin-left: 12%;
+    }
+}
+@media (min-width: 505px) and (max-width: 768px){
+    #divtexto1{
+        margin-left: 6%;
+        font-size: 20px;
+    }
+}
+
+#drMarilia{
+    background-image: url("pexels-tima-miroshnichenko-5355860.jpg");
+    background-size:cover;
+    width: 14rem;
+    height: 20rem;
+    border-radius: 100px;
+    margin-top: 0.1em;
+    box-shadow: 1px 3px 10px  rgba(0, 0, 0, 0.432);
+   
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #drMarilia{
+        height: 30rem;
+      width: 80%;
+      border-radius: 60px;
+    }
+}
+
+
+#cta{
+    margin-top: 25em;
+    margin-left: 0%;
+    background-image: radial-gradient( rgb(63, 211, 221),rgb(70, 230, 241), rgb(63, 211, 221)) ;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 10px;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 5px 10px  rgba(0, 0, 0, 0.432);
+   cursor: pointer;
+  
+}
+@media (min-width: 320px) and (max-width: 374px){
+    #cta{
+        height: 2.5em;
+        width: 10em;
+        padding-top: 0.4em;
+        margin-top: 32rem;
+    }
+}
+@media (min-width: 375px) and (max-width: 425px){
+    #cta{
+        margin-left: 15%;
+        height: 2.5em;
+        width: 8em;
+        padding-top: 0.4em;
+        padding-left: 10%;
+        margin-top: 32rem;
+    }
+}
+@media (min-width: 426px) and (max-width: 504px){
+    #cta{
+        margin-left: 25%;
+        height: 2.5em;
+        width: 8em;
+        padding-top: 0.4em;
+        padding-left: 10%;
+        margin-top: 32rem;
+    }
+}
+
+@media (min-width: 505px) and (max-width: 768px){
+    #cta{
+        height: 2.5em;
+        width: 8em;
+        padding-left: 10%;
+    }
+}
+
+
+.section2{
+    /*background-image: linear-gradient(to bottom, rgb(252, 221, 193), rgb(255, 234, 216), rgb(252, 221, 193));*/
+    background-image: linear-gradient(to bottom, rgb(126, 218, 224), rgb(116, 194, 204),  rgb(126, 218, 224));
+    height: 63vh;
+    display: flex;
+   
+    
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .section2{
+        flex-direction: column;
+        height: 300vh;
+        padding-bottom: 10%;
+    }
+}
+@media (min-width: 505px) and (max-width: 596px){
+    .section2{
+      height: 200vh;
+      margin-left: -3%;
+      /*flex-wrap: wrap;*/
+     
+    }
+}
+@media (min-width: 505px) and (max-width: 768px){
+    .section2{
+        height: 90vh;
+      margin-left: -3%;
+     
+    }
+}
+@media (min-width: 1441px) and (max-width: 1920px){
+    .section2{
+        height: 36vh;
+        
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .section2{
+        height: 36vh;
+    }
+}
+.cordivfoto{
+    background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(192, 240, 237));
+    /*background: rgb(224, 240, 239);*/
+    height: 20rem;
+    width: 25rem;
+    margin-left: 3%;
+    margin-top: 3%;
+    word-wrap: break-word;
+    color: #0979b1;
+    font-size: 12pt;
+    gap: 6%;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px  rgba(0, 0, 0, 0.432);
+}
+@media (min-width: 375px) and (max-width: 425px){
+    .cordivfoto{
+        margin-left: 15%;
+        margin-top: 10%;
+        padding-left: 1.5rem;
+        height: 29rem;
+        width: 17rem;
+    }
+}
+@media (min-width: 320px) and (max-width: 425px){
+    .cordivfoto{
+        margin-top: 10%;
+        padding-left: 1.5rem;
+        height: 29rem;
+        width: 17rem;
+    }
+}
+@media (min-width: 426px) and (max-width: 504px){
+    .cordivfoto{
+        margin-top: 10%;
+        padding-left: 1.5rem;
+        height: 29rem;
+        width: 17rem;
+        margin-left: 18%;
+    }
+}
+@media (min-width: 505px) and (max-width: 596px){
+    .cordivfoto{
+        margin-left: 5%;
+        height: 27em;
+        width: 9em;
+        word-wrap: break-word;
+        padding-left: 0%;
+       
+       
+    }
+}
+@media (min-width: 597px) and (max-width: 768px){
+    .cordivfoto{
+        margin-left: 12%;
+        height: 27em;
+        width: 9em;
+        word-wrap: break-word;
+       
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .cordivfoto{
+        margin-left: 2%;
+        height: 20em;
+        width: 19rem;
+        word-wrap: break-word;
+       
+    }
+}
+@media (min-width: 1441px) and (max-width: 1920px){
+    .cordivfoto{
+        margin-left: 6%;
+        width: 30rem;
+        height: 23rem;
+        font-size: 14pt;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .cordivfoto{
+        margin-left: 11%;
+        width: 30rem;
+        height: 23rem;
+        font-size: 14pt;
+    }
+}
+
+.flex1{}
+@media (min-width: 505px) and (max-width: 768px){
+    .flex1{
+        flex-direction: column;
+       
+    }
+}
+
+.imgssection2{
+    
+    height: 6rem;
+    width: 6rem;
+    margin-top: 1em;
+    border-radius: 100%;
+    margin-left: 1.3rem;
+    word-wrap: break-word;
+}
+@media (min-width: 505px) and (max-width: 768px){
+    .imgssection2{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 100%;
+        
+    }
+}
+
+.textodepoimentos{
+    word-wrap: break-word;
+    width: 18rem;
+   
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .textodepoimentos{
+        width: 10rem;
+    }
+}
+@media (min-width: 505px) and (max-width: 768px){
+    .textodepoimentos{
+        font-size: 12px;
+        width: 8rem;
+        word-wrap: break-word;
+        padding-left: 8%;
+       
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .textodepoimentos{
+        font-size: 12px;
+        width: 8rem;
+        word-wrap: break-word;
+        padding-left: 8%;
+       
+    }
+}
+
+#moçadaviagem{
+   
+}
+#senhorinha{
+    background-image: url('saudebucalsorrisos.webp');
+    background-size: cover;
+}
+#homem{
+    /*background-image: url("pngtree-close-up-of-person-smiling-like-a-man-has-a-beard-image_2889966.jpg");*/
+    background-size: cover;
+}
+
+.section3{
+    /*display: flex;*/
+    word-wrap: break-word;
+    max-height: 350vh;
+    padding-top: 2em;
+    gap: 10%;
+    /*background: rgb(224, 240, 239);*/
+    background-image: linear-gradient(to bottom,  rgb(129, 223, 230), rgb(191, 255, 251), rgb(129, 223, 230));
+    color: #0979b1;
+    font-size: 14pt;
+    font-weight: 400;
+    padding-bottom: 2em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .section3{
+
+    }
+}
+
+#Oqueeodontologiadigital{
+    margin-left: 35%;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #Oqueeodontologiadigital{
+        margin-left: 25%;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    #Oqueeodontologiadigital{
+        margin-left: 33%;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #Oqueeodontologiadigital{
+        margin-left: 42%;
+    }
+}
+
+#textosorriso{
+    word-wrap: break-word;
+    width: 60%;
+    margin-left: 20%;
+   
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #textosorriso{
+      font-size: 16px;
+     
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    #textosorriso{
+       margin-left: 25%;
+       
+      }
+}
+
+.ul1{
+    line-height: 3rem;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .ul1{
+        line-height: 2rem;
+        margin-left: -2em;
+    }
+}
+
+footer{
+    margin-left: 0;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: flex;
+    height: 4rem;
+    gap: 6%;
+    padding-left: 40%;
+    background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(129, 223, 230));
+}
+.iconsfooter{
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .iconsfooter{
+         margin-left: -0.5em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .iconsfooter{
+        margin-left: 4%;
+    }
+}
