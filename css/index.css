@@ -56,12 +56,13 @@ header{
 @media (min-width: 1441px) and (max-width: 1920px){
     .section1{
         height: 50vh;
+        height: 130vh;
     }
 }
 @media (min-width: 1921px) and (max-width: 2650px){
     .section1{
         height: 45vh;
-        
+        height: 130vh;
     }
 }
 
