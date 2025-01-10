@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: Poppins;
+    display: flex;
+    flex-direction: column;
     
 }
 header{
@@ -29,6 +31,7 @@ header{
 .section1{
     display: flex;
     word-wrap: break-word;
+    height: auto;
     height: 90vh;
     padding-top: 2em;
     gap: 10%;
@@ -114,8 +117,8 @@ header{
 }
 @media (min-width: 1921px) and (max-width: 2650px){
     #drMarilia{
-        min-width: 14rem;
-        min-height: 20rem;
+        width: 14rem;
+        height: 20rem;
     }
 }
 
