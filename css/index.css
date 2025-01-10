@@ -61,6 +61,7 @@ header{
 }
 @media (min-width: 1921px) and (max-width: 2650px){
     .section1{
+        /*height: 45vh;*/
         min-height: 45vh;
         
     }
@@ -109,6 +110,12 @@ header{
         height: 30rem;
       width: 80%;
       border-radius: 60px;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #drMarilia{
+        min-width: 14rem;
+        min-height: 20rem;
     }
 }
 
@@ -198,13 +205,13 @@ header{
 }
 @media (min-width: 1441px) and (max-width: 1920px){
     .section2{
-        min-height: 50vh;
+        min-height: 36vh;
         
     }
 }
 @media (min-width: 1921px) and (max-width: 2650px){
     .section2{
-        min-height: 50vh;
+        min-height: 36vh;
     }
 }
 .cordivfoto{
