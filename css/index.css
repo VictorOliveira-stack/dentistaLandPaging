@@ -5,7 +5,7 @@ body{
     
     /*display: flex;
     flex-direction: column;*/
-    
+    background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(129, 223, 230));
     
 }
 header{
@@ -58,9 +58,9 @@ header{
         height: 50vh;
       }
 }
-@media (min-width: 1441px) and (max-width: 1920px){
+@media (min-width: 1441px) and (max-width: 1920px) and (orientation: landscape){
     .section1{
-        height: 36vh;
+        height: 60vh;
        
     }
 }
@@ -226,6 +226,7 @@ header{
 }
 @media (min-width: 1441px) and (max-width: 1920px){
     .section2{
+        
         height: 36vh;
         
     }
