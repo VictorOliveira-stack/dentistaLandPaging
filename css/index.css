@@ -187,6 +187,7 @@ header{
     /*background-image: linear-gradient(to bottom, rgb(252, 221, 193), rgb(255, 234, 216), rgb(252, 221, 193));*/
     background-image: linear-gradient(to bottom, rgb(126, 218, 224), rgb(116, 194, 204),  rgb(126, 218, 224));
     /*min-height: 63vh;*/
+    height: 26em;
     display: flex;
    
     
@@ -233,7 +234,8 @@ header{
 .cordivfoto{
     background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(192, 240, 237));
     /*background: rgb(224, 240, 239);*/
-    min-height: 20rem;
+    /*min-height: 20rem;*/
+    height: 20em;
     width: 25rem;
     margin-left: 3%;
     margin-top: 3%;
