@@ -191,8 +191,13 @@ header{
 @media (min-width: 597px) and (max-width: 768px){
     .section2{
         height: 90vh;
-      margin-left: -3%;
+        margin-left: -3%;
      
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    .section2{
+        height: 36vh;
     }
 }
 @media (min-width: 1441px) and (max-width: 1920px){
@@ -276,6 +281,7 @@ header{
        
     }
 }
+
 @media (min-width: 1441px) and (max-width: 1920px){
     .cordivfoto{
         margin-left: 6%;
