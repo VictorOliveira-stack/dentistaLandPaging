@@ -29,7 +29,7 @@ header{
 .section1{
     display: flex;
     word-wrap: break-word;
-    height: 90vh;
+    min-height: 90vh;
     padding-top: 2em;
     gap: 10%;
     padding-left: 2rem;
@@ -73,7 +73,7 @@ header{
 
 #divtexto1{
     width: 14rem;
-    height: 10rem;
+    min-height: 10rem;
     font-size: 18pt;
     font-weight: 400;
     /*color: #065E8B;*/
@@ -97,7 +97,7 @@ header{
     background-image: url("pexels-tima-miroshnichenko-5355860.jpg");
     background-size:cover;
     width: 14rem;
-    height: 20rem;
+    min-height: 20rem;
     border-radius: 100px;
     margin-top: 0.1em;
     box-shadow: 1px 3px 10px  rgba(0, 0, 0, 0.432);
@@ -116,7 +116,7 @@ header{
     margin-top: 25em;
     margin-left: 0%;
     background-image: radial-gradient( rgb(63, 211, 221),rgb(70, 230, 241), rgb(63, 211, 221)) ;
-    height: 2.5rem;
+    min-height: 2.5rem;
     width: 10rem;
     border-radius: 10px;
     padding-left: 3rem;
@@ -168,7 +168,7 @@ header{
 .section2{
     /*background-image: linear-gradient(to bottom, rgb(252, 221, 193), rgb(255, 234, 216), rgb(252, 221, 193));*/
     background-image: linear-gradient(to bottom, rgb(126, 218, 224), rgb(116, 194, 204),  rgb(126, 218, 224));
-    height: 63vh;
+    min-height: 63vh;
     display: flex;
    
     
@@ -209,7 +209,7 @@ header{
 .cordivfoto{
     background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(192, 240, 237));
     /*background: rgb(224, 240, 239);*/
-    height: 20rem;
+    min-height: 20rem;
     width: 25rem;
     margin-left: 3%;
     margin-top: 3%;
@@ -362,7 +362,7 @@ header{
 .section3{
     /*display: flex;*/
     word-wrap: break-word;
-    max-height: 350vh;
+    min-height: 70vh;
     padding-top: 2em;
     gap: 10%;
     /*background: rgb(224, 240, 239);*/
