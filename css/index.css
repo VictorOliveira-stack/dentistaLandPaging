@@ -188,14 +188,14 @@ header{
      
     }
 }
-@media (min-width: 505px) and (max-width: 768px){
+@media (min-width: 597px) and (max-width: 768px){
     .section2{
         height: 90vh;
       margin-left: -3%;
      
     }
 }
-/*@media (min-width: 1441px) and (max-width: 1920px){
+@media (min-width: 1441px) and (max-width: 1920px){
     .section2{
         height: 36vh;
         
@@ -205,7 +205,7 @@ header{
     .section2{
         height: 36vh;
     }
-}*/
+}
 
 .cordivfoto{
     background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(192, 240, 237));
