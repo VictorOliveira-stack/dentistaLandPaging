@@ -2,8 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: Poppins;
-    display: flex;
-    flex-direction: column;
+    
+    /*display: flex;
+    flex-direction: column;*/
+    
     
 }
 header{
@@ -42,37 +44,40 @@ header{
 @media (min-width: 320px) and (max-width: 504px){
     .section1{
         flex-direction: column;
-        height: 190vh;
+        height: 80vh;
         gap: 18em;
     }
 }
 @media (min-width: 505px) and (max-width: 768px){
     .section1{
-      height: 100vh;
+      height: 50vh;
     }
 }
 @media (min-width: 769px) and (max-width: 1024px){
     .section1{
-        height: 100vh;
+        height: 50vh;
       }
 }
 @media (min-width: 1441px) and (max-width: 1920px){
     .section1{
-        height: 50vh;
+        height: 36vh;
        
     }
 }
-@media (min-width: 1921px) and (max-width: 2650px){
+@media (min-width: 1921px) and (max-width: 2650px) and (orientation: landscape){
     .section1{
         /*height: 45vh;*/
-        min-height: 45vh;
+        /*height: auto;*/
+        max-height: 60vh;
+       
         
     }
 }
 
-@media (min-width: 1921px) and (max-width: 2650px){
+@media (min-width: 1921px) and (max-width: 2650px) and (orientation: landscape){
     #divsection1{
         padding-left: 10%;
+        
     }
 }
 
@@ -97,6 +102,12 @@ header{
         font-size: 20px;
     }
 }
+@media (min-width: 1921px) and (max-width: 2650px){
+    #divtexto{
+        height: 30rem;
+       
+    }
+}
 
 #drMarilia{
     background-image: url("pexels-tima-miroshnichenko-5355860.jpg");
@@ -119,6 +130,8 @@ header{
     #drMarilia{
         width: 14rem;
         height: 20rem;
+      
+        
     }
 }
 
@@ -174,6 +187,11 @@ header{
         padding-left: 10%;
     }
 }
+@media (min-width: 1921px) and (max-width: 2650px){
+    #cta{
+      
+    }
+}
 
 
 .section2{
@@ -208,13 +226,16 @@ header{
 }
 @media (min-width: 1441px) and (max-width: 1920px){
     .section2{
-        min-height: 36vh;
+        height: 36vh;
         
     }
 }
-@media (min-width: 1921px) and (max-width: 2650px){
+@media (min-width: 1921px) and (max-width: 2650px) and (orientation: landscape){
     .section2{
-        min-height: 36vh;
+        height: auto;
+        max-height: 40vh;
+      
+        
     }
 }
 .cordivfoto{
@@ -388,6 +409,37 @@ header{
 
     }
 }
+@media (min-width: 1441px) and (max-width: 1920px) and (orientation: landscape){
+    .section3{
+        /*display: flex;*/
+        word-wrap: break-word;
+        max-height: 350vh;
+        padding-top: 2em;
+        gap: 10%;
+        /*background: rgb(224, 240, 239);*/
+        background-image: linear-gradient(to bottom,  rgb(129, 223, 230), rgb(191, 255, 251), rgb(129, 223, 230));
+        color: #0979b1;
+        font-size: 14pt;
+        font-weight: 400;
+        padding-bottom: 2em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px)  and (orientation: landscape){
+    .section3{
+        /*display: flex;*/
+        word-wrap: break-word;
+        max-height: 350vh;
+        padding-top: 10em;
+        gap: 10%;
+        /*background: rgb(224, 240, 239);*/
+        background-image: linear-gradient(to bottom,  rgb(129, 223, 230), rgb(191, 255, 251), rgb(129, 223, 230));
+        color: #0979b1;
+        font-size: 18pt;
+        font-weight: 400;
+        padding-bottom: 2em;
+    }
+}
+
 
 #Oqueeodontologiadigital{
     margin-left: 35%;
@@ -459,7 +511,7 @@ footer{
          margin-left: -0.5em;
     }
 }
-@media (min-width: 1921px) and (max-width: 2650px){
+@media (min-width: 1921px) and (max-width: 2650px) {
     .iconsfooter{
         margin-left: 4%;
     }
