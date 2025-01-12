@@ -36,9 +36,9 @@ header{
 }
 @media (min-width: 320px) and (max-width: 504px){
     .section1{
-        flex-direction: column;
-        height: 190vh;
-        gap: 18em;
+       
+        height: 70em;
+      
     }
 }
 @media (min-width: 505px) and (max-width: 768px){
@@ -48,7 +48,7 @@ header{
 }
 @media (min-width: 769px) and (max-width: 1024px){
     .section1{
-        height: 100vh;
+        height: 40em;
       }
 }
 @media (min-width: 1025px) and (max-width: 1280px){
@@ -82,6 +82,48 @@ header{
     padding-top: 2em;
     gap: 10%;
     padding-left: 2rem;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .se1{
+        flex-direction: column;
+      
+        gap: 18em;
+    }
+}
+@media (min-width: 505px) and (max-width: 768px){
+    .se1{
+      height: 100vh;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .se1{
+        height: 100vh;
+      }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    .se1{
+        /*height: 100vh;*/
+        height: 40em;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1920px){
+    .se1{
+       /* height: 50vh; */
+       height: 40em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .se1{
+        /*height: 45vh;*/
+        height: 40em;
+        
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 2650px){
+    #divsection1{
+        padding-left: 10%;
+    }
 }
 
 #divtexto1{
