@@ -43,7 +43,7 @@ header{
 }
 @media (min-width: 505px) and (max-width: 768px){
     .section1{
-      height: 100vh;
+      height: 40em;
     }
 }
 @media (min-width: 769px) and (max-width: 1024px){
@@ -194,7 +194,7 @@ header{
     #cta{
         height: 2.5em;
         width: 10em;
-        padding-top: 0.4em;
+        /*padding-top: 0.4em;*/
         margin-top: 32rem;
     }
 }
@@ -203,7 +203,7 @@ header{
         margin-left: 15%;
         height: 2.5em;
         width: 8em;
-        padding-top: 0.4em;
+        /*padding-top: 0.4em;*/
         padding-left: 10%;
         margin-top: 32rem;
     }
@@ -213,7 +213,7 @@ header{
         margin-left: 25%;
         height: 2.5em;
         width: 8em;
-        padding-top: 0.4em;
+        /*padding-top: 0.4em;*/
         padding-left: 10%;
         margin-top: 32rem;
     }
@@ -240,13 +240,13 @@ header{
 @media (min-width: 320px) and (max-width: 504px){
     .section2{
         flex-direction: column;
-        height: 300vh;
+        height: 104em;
         padding-bottom: 10%;
     }
 }
 @media (min-width: 505px) and (max-width: 596px){
     .section2{
-      height: 200vh;
+      height: 30em;
       margin-left: -3%;
       /*flex-wrap: wrap;*/
      
@@ -254,7 +254,7 @@ header{
 }
 @media (min-width: 597px) and (max-width: 768px){
     .section2{
-        height: 90vh;
+        height: 31em;
         margin-left: -3%;
      
     }
@@ -345,7 +345,8 @@ header{
         height: 20em;
         width: 19rem;
         word-wrap: break-word;
-       
+        gap: 0;
+        /*overflow-x: hidden;*/
     }
 }
 
@@ -414,7 +415,7 @@ header{
 @media (min-width: 769px) and (max-width: 1024px){
     .textodepoimentos{
         font-size: 12px;
-        width: 8rem;
+        width: 7rem;
         word-wrap: break-word;
         padding-left: 8%;
        
