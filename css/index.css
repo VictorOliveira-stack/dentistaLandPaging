@@ -27,14 +27,10 @@ header{
 }*/
 
 .section1{
-    display: flex;
-    word-wrap: break-word;
+   
     /*height: auto;*/
     /*height: 90vh;*/
     height: 40em;
-    padding-top: 2em;
-    gap: 10%;
-    padding-left: 2rem;
     background-image: linear-gradient(to bottom, rgb(192, 240, 237),  rgb(191, 255, 251), rgb(129, 223, 230));
     
 }
@@ -79,6 +75,13 @@ header{
     #divsection1{
         padding-left: 10%;
     }
+}
+.se1{
+    display: flex;
+    word-wrap: break-word;
+    padding-top: 2em;
+    gap: 10%;
+    padding-left: 2rem;
 }
 
 #divtexto1{
